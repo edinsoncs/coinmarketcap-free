@@ -1,0 +1,39 @@
+{
+    "name": "coinmarketcapfree",
+    "version": "0.0.2",
+    "type": "module",
+    "source": "src/index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.module.js",
+    "author": "EdinsonCS",
+    "license": "MIT",
+    "unpkg": "dist/index.umd.js",
+    "keywords": [
+        "crypto",
+        "coinmarketcap",
+        "api crypto coin",
+        "blockchain",
+        "bitcoin price",
+        "ethereum price",
+        "coins price",
+        "criypto prices",
+        "api crypto prices",
+        "api coinmarketcap free",
+        "tokens price"
+    ],
+    "scripts": {
+        "build": "microbundle",
+        "dev": "microbundle watch"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "microbundle": "^0.15.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/edinsoncs/api-news"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    }
+}

@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports,require("node-fetch")):"function"==typeof define&&define.amd?define(["exports","node-fetch"],t):t((e||self).coinmarketcapfree={},e.nodeFetch)}(this,function(e,t){function n(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var o=/*#__PURE__*/n(t),f=function(){return o.default("https://www.dexi.tools/coinmarketcap").then(function(e){return e.json()}).then(function(e){return e})};f(),e.getCoinmarketDefault=f});
+//# sourceMappingURL=index.umd.js.map

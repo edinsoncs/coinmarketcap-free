@@ -1,6 +1,6 @@
 {
     "name": "coinmarketcapfree",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "module",
     "source": "src/index.js",
     "main": "dist/index.js",
@@ -31,7 +31,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/edinsoncs/api-news"
+        "url": "https://github.com/edinsoncs/coinmarketcap-free"
     },
     "dependencies": {
         "node-fetch": "^3.3.2"

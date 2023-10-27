@@ -3,19 +3,19 @@
 ![Dexi](https://i.ibb.co/ZBk2v0b/dexi.png)
 
 
-With the CoinMarketCap Free module, you can track the prices and all the information of cryptocurrencies listed on the official CoinMarketCap website. You get all the necessary information, and you also have access to historical data.
+With the CoinMarketCap Free module, you can track the prices and obtain comprehensive information about cryptocurrencies listed on the official CoinMarketCap website, all without the need for an API secret. Additionally, historical data is readily available for your convenience.
 
 
 ## Installation
 Install using npm:
 ```sh
-npm install ...
+npm install coinmarketcapfree --save
 ```
 
 ## Usage
 Require library
 ```javascript
-import { getCoinmarketDefault } from '...';
+import { getCoinmarketDefault } from 'coinmarketcapfree';
 ```
 ```javascript
 (async () => {
